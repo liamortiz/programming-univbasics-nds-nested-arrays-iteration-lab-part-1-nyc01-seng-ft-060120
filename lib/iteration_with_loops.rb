@@ -9,8 +9,8 @@ def find_even_values(src)
       if element.even?
         puts element
       end
-      row += 1
+      col += 1
     end
-    col += 1
+    row += 1
   end
 end
